@@ -922,3 +922,65 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.01-17.55.51:358][  1]LogRenderer: Reallocating scene render targets to support 984x520 Format 10 NumSamples 1 (Frame:4).
 [2021.12.01-17.55.51:561][  7]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2021.12.01-17.55.52:702][ 61]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.01-17.56.08:465][792]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.01-17.56.08:465][792]PIE: New page: PIE session: VehicleAdvExampleMap (01.12.2021, 19:56:08)
+[2021.12.01-17.56.08:466][792]LogOnline: OSS: Creating online subsystem instance for: Steam
+[2021.12.01-17.56.08:466][792]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2021.12.01-17.56.08:466][792]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.12.01-17.56.08:467][792]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.12.01-17.56.08:703][792]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2021.12.01-17.56.08:725][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021692s)
+[2021.12.01-17.56.08:726][792]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2021.12.01-17.56.08:726][792]LogPlayLevel: PIE: World Init took: (0.001212s)
+[2021.12.01-17.56.08:727][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.023160s)
+[2021.12.01-17.56.08:744][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2021.12.01-17.56.08:745][792]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2021.12.01-17.56.08:747][792]AdvancedFriendsInterfaceLog: Warning: UAdvancedFriendsInstance Failed to get voice interface!
+[2021.12.01-17.56.08:747][792]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.12.01-17.56.08:747][792]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.01-17.56.08:747][792]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.01-17.56.08:747][792]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.01-17.56.08:747][792]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.01-17.56.08:747][792]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.01-17.56.08:747][792]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.01-17.56.08:747][792]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.01-17.56.08:747][792]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.01-17.56.08:747][792]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.12.01-17.56.08:747][792]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.12.01-17.56.08:747][792]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.12.01-17.56.08:747][792]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.01-17.56.08:751][792]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.01-17.56.08:751][792]LogAudioMixer: Display: 1: FrontRight
+[2021.12.01-17.56.08:762][792]LogAudioMixer: Display: Using Audio Device Lautsprecher (Realtek(R) Audio)
+[2021.12.01-17.56.08:762][792]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.01-17.56.08:763][792]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.01-17.56.08:763][792]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.01-17.56.08:763][792]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.01-17.56.08:763][792]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.01-17.56.08:763][792]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.01-17.56.08:764][792]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.01-17.56.08:764][792]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.01-17.56.08:764][792]LogInit: FAudioDevice initialized.
+[2021.12.01-17.56.08:764][792]LogAudio: Display: Audio Device (ID: 2) registered with world 'VehicleAdvExampleMap'.
+[2021.12.01-17.56.08:788][792]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.01-17.56.08:789][792]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2021.12.01-17.56.08:793][792]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2021.12.01-18.56.08
+[2021.12.01-17.56.08:793][792]LogWorld: Bringing up level for play took: 0.002969
+[2021.12.01-17.56.08:795][792]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.12.01-17.56.08:797][792]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2021.12.01-17.56.08:797][792]LogBlueprintUserMessages: [WB_PauseMenu_C_0] Hello
+[2021.12.01-17.56.08:799][792]PIE: Server logged in
+[2021.12.01-17.56.08:801][792]PIE: Play in editor total start time 0,337 seconds.
+[2021.12.01-17.56.08:833][793]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2021.12.01-17.56.12:580][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.01-17.56.12:580][ 11]LogWorld: BeginTearingDown for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2021.12.01-17.56.12:581][ 11]LogSlate: Window 'SpaceMission Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.12.01-17.56.12:585][ 11]AdvancedFriendsInterfaceLog: Warning: UAdvancedFriendsInstance Failed to get voice interface!
+[2021.12.01-17.56.12:585][ 11]LogWorld: UWorld::CleanupWorld for VehicleAdvExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.01-17.56.12:586][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.01-17.56.12:594][ 11]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.01-17.56.12:596][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.01-17.56.12:599][ 11]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.01-17.56.12:600][ 11]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.01-17.56.12:606][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2021.12.01-17.56.12:731][ 18]LogPlayLevel: Display: Destroying online subsystem :Context_1
